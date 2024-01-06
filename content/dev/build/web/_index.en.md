@@ -156,21 +156,3 @@ docker run -p 5000:5000 rustdesk-web-client
 ```
 
 - Open your browser and go to `localhost:5000` to see the web app.
-
-### RustDesk Web Client using existing Docker image
-
-If you do not want to build the Docker image yourself, you can use the image I built and uploaded to [Docker Hub](https://hub.docker.com/r/keyurbhole/flutter_web_desk).
-
-- Pull the image:
-
-```sh
-docker pull keyurbhole/flutter_web_desk
-```
-
-- Run the image:
-
-```sh
-docker run -p 5000:5000 keyurbhole/flutter_web_desk
-```
-
-- Open your browser and go to `localhost:5000` to see the web app.
